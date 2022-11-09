@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source 10_konfiguracja
+
+echo "Prowadzący: ${imie} ${nazwisko}"
+echo "Szkolenie: ${szkolenie} ${firma}"
+

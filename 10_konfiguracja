@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Plik przeznaczony do wczytywania instrukcją source
+# 
+# Typowo nie umieszczamy tu żadnych instrukcji, które coś wyświetlają,
+# modyfikują, wykonują operacje na plikach itp
+#
+# Jedynie przypisania do zmiennych, definiowanie aliasów
+
+imie=Mateusz
+nazwisko='Adamowski'
+firma="ALX"
+szkolenie="Administrator Linuksa"
+

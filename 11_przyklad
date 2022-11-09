@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Jeśli uruchomimy ten skrypt jako proces potomny:
+#  $ ./skrypt
+# albo
+#  $ bash skrypt
+# to zmiana katalogu roboczego nie będzie miała znaczenia
+# po zakończeniu skryptu
+#
+# Jeśli zrobimy source:
+#  $ source skrypt
+# Na koniec bieżący katalog w powłoce będzie zmieniony na /var/log
+
+cd /etc
+ls 
+cd /var/log
+ls
+echo Koniec
