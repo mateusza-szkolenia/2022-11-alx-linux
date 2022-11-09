@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "PATH: ($PATH)"
+echo "HOME: ($HOME)"
+echo "USER: ($USER)"
+
+# aby imię się wyświetliło, musi być wcześniej wyeksportowane z shella
+#
+#  $ imie=Andrzej
+#  $ export imie
+#  $ ./skrypt
+
+echo "imie: ($imie)"
+
