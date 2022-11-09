@@ -25,5 +25,4 @@ Lub po zmianie praw dostępu (`chmod +x plik`):
 $ ./nazwa_skryptu
 ```
 
-
 Kontakt do prowadzącego: <mailto:m.adamowski@alx.pl>
