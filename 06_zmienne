@@ -1,0 +1,5 @@
+#!/bin/bash
+
+zwierze=kot
+
+echo "Jaki mały ${zwierze}ek!!!"
