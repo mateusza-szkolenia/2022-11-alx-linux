@@ -10,7 +10,7 @@ echo "Rok urodzenia: $ur"
 
 echo "Wiek: $wiek"
 
-if (( wiek > 18 ))
+if (( wiek >= 18 ))
 then
     echo "Pełnoletni"
 else
@@ -20,4 +20,17 @@ else
     (( kiedyosiemnastka = biez + zailelat ))
     echo "Osiemnastka w roku: $kiedyosiemnastka"
 fi
+
+
+if (( wiek >= 35 ))
+then
+    echo "Może kandydować na prezydenta RP"
+else
+    echo "Nie może kandydować na prezydenta RP"
+    (( zailelat = 35 - wiek ))
+    echo "Prawo kandydowania za tyle lat: $zailelat"
+    (( kiedyprez = biez + zailelat ))
+    echo "Możesz kandydować w roku: $kiedyprez"
+fi
+
 
