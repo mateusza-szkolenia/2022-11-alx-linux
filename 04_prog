@@ -1,0 +1,4 @@
+
+print("Dzien dobry")
+print(2 + 2)
+print("Do widzenia")
