@@ -2,6 +2,6 @@
 
 read -p "Podaj rok: " rok
 
-cal "$rok"
+cal 11 "$rok"
 
 
