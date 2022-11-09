@@ -3,5 +3,10 @@
 imie=Mateusz
 firma=ALX
 
+# nie może być spacji przed i po =
+#
+# taki zapis jest nieprawidłowy:
+# imie = Marcin
+
 echo "Nazywam się $imie"
 echo "Szkolenie odbywa się w firmie $firma"
