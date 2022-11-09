@@ -1,0 +1,4 @@
+## Kalkulatory
+
+* `bc -l`
+* `dc`
