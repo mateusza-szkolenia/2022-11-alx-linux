@@ -3,9 +3,11 @@
 read -p "podaj liczbę większą od 100: " liczba
 
 # gt    greater than    >
-# lt    less then       <
+# lt    less than       <
 # eq    equal           = 
-
+# ge                    >=
+# le                    <=
+# ne                    !=
 
 if test "$liczba" -gt 100
 then
