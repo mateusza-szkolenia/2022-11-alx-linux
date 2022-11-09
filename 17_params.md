@@ -31,7 +31,7 @@ cat: Kowalski: Nie ma takiego pliku ani katalogu
 ## Każdy parametr:
 
 ```bash
-echo "$@"
+cat "$@"
 ```
 
 ```shell
@@ -39,10 +39,13 @@ cat: Mateusz Adamowski: Nie ma takiego pliku ani katalogu
 cat: Jan Kowalski: Nie ma takiego pliku ani katalogu
 ```
 
+*To jest to, czego potrzebujemy w większości przypadków.*
+
+
 ## Każdy parametr bez cudzysłowu:
 
 ```bash
-echo $@
+cat $@
 ```
 
 ```shell
