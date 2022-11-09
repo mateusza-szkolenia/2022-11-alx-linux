@@ -1,0 +1,6 @@
+#!/bin/bash
+
+FORMAT_DATY=%F
+
+echo "Dzisiaj jest: $(date "+${FORMAT_DATY}")"
+
