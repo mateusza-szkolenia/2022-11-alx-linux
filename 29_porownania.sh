@@ -9,7 +9,7 @@ read -p "podaj liczbę większą od 100: " liczba
 # le                    <=
 # ne                    !=
 
-if test "$liczba" -gt 100
+if [ "$liczba" -gt 100 ]
 then
     echo "OK"
 else
