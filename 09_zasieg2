@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Bezpośrednie przekazanie zmiennych do procesu potomnego:
+#
+#  $ imie=Mateusz nazwisko=Adamowski firma=ALX szkolenie=Linux ./09_zasieg2
+#
+# (uwaga na spacje)
+#
+
+echo "Prowadzący: ${imie} ${nazwisko}"
+echo "Szkolenie: ${szkolenie} ${firma}"
+
