@@ -10,3 +10,7 @@ firma=ALX
 
 echo "Nazywam się $imie"
 echo "Szkolenie odbywa się w firmie $firma"
+
+echo 'Nazywam się $imie'
+echo 'Szkolenie odbywa się w firmie $firma'
+
