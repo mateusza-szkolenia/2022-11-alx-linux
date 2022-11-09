@@ -39,3 +39,16 @@ set expandtab
 syntax on
 ```
 
+## Edycja bieżącej linii w edytorze
+
+Skrót klawiszowy `ctrl-X ctrl-E`
+
+Wymaga wcześniejszego ustawienia zmiennej `EDITOR` na ścieżkę do wybranego edytora, np.
+
+Plik `.bashrc`
+
+```bash
+EDITOR=/usr/bin/vim
+export EDITOR
+```
+
