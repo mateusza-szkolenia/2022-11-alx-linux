@@ -3,3 +3,5 @@
 zwierze=kot
 
 echo "Jaki mały ${zwierze}ek!!!"
+echo Jaki" mały $zwierze"ek!!!
+echo 'J'aki" mały $zwierze"ek'!!!'
