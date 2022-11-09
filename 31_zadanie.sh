@@ -10,3 +10,10 @@ echo "Rok urodzenia: $ur"
 
 echo "Wiek: $wiek"
 
+if (( wiek > 18 ))
+then
+    echo "Pełnoletni"
+else
+    echo "Nieletni"
+fi
+
