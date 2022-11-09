@@ -4,6 +4,7 @@ a=10
 b=20
 
 echo "a + b = $((a + b))"
+echo "a + b = $[a + b]"
 
 # tylko liczby całkowite
 echo "100 podzielić na 3: $(( 100 / 3 ))"
