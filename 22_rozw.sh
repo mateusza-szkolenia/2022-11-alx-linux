@@ -1,6 +1,10 @@
 #!/bin/bash
 
+biez="$( date +%Y )"
+
 read -p "Podaj rok urodzenia: " rok
 
-echo "Rok urodzenia: $rok"
+(( wiek = biez - rok ))
+
+echo "Wiek: $wiek"
 
