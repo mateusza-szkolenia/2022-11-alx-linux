@@ -15,5 +15,7 @@ then
     echo "Pełnoletni"
 else
     echo "Nieletni"
+    (( zailelat = 18 - wiek ))
+    echo "Do osiemnastki: $zailelat"
 fi
 
