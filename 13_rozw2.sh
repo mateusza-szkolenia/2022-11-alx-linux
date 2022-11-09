@@ -1,7 +1,9 @@
 #!/bin/bash
 
+mies=11
+
 read -p "Podaj rok: " rok
 
-cal 11 "$rok"
+cal "$mies" "$rok"
 
 
