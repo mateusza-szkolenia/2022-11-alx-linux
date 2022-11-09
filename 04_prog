@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
-print("Dzien dobry")
-print(2 + 2)
-print("Do widzenia")
+# python2 nie wymaga nawiasow przy print
+
+print "Dzien dobry"
+print 2 + 2
+print "Do widzenia"
