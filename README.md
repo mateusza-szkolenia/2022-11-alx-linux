@@ -26,3 +26,16 @@ $ ./nazwa_skryptu
 ```
 
 Kontakt do prowadzącego: <mailto:m.adamowski@alx.pl>
+
+## Konfiguracja vima
+
+Plik `.vimrc`
+
+```
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+syntax on
+```
+
