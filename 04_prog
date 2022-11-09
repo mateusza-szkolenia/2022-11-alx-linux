@@ -1,3 +1,4 @@
+#!/usr/bin/python
 
 print("Dzien dobry")
 print(2 + 2)
