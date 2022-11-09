@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mies=11
+mies="$(date +%m)"
 
 read -p "Podaj rok: " rok
 
