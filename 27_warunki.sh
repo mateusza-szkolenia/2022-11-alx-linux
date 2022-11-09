@@ -12,5 +12,5 @@ then
     echo "OK"
 else
     echo "Wracaj do szkoły"
-    exit 999
+    exit 99
 fi
