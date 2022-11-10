@@ -5,7 +5,7 @@ razem=0
 for plik in *.sh
 do
     echo -n "$plik: "
-    wc -l < "$plik"
+    cat "$plik" | grep -v '^$' | wc -l
 
 done
 
