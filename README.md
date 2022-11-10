@@ -52,3 +52,10 @@ EDITOR=/usr/bin/vim
 export EDITOR
 ```
 
+## Ciekawe programy
+
+* `shellcheck`
+* `neofetch`
+* `bashtop`
+
+
