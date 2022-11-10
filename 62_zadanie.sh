@@ -6,7 +6,7 @@ for plik in *.sh
 do
     ile=$(cat "$plik" | grep -v '^$' | wc -l)
 
-    (( razem = razem + ile ))
+    (( razem += ile ))
 
     echo "$plik: $ile"
 done
