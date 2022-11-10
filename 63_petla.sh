@@ -1,11 +1,8 @@
 #!/bin/bash
 
-for plik in *.py
+for plik in *.py *.sh *.exe
 do
-    if ! test -e "$plik"
-    then
-        break
-    fi
+    test -e "$plik" || continue
 
     echo "PLIK: $plik"
     wc -l < "$plik"
