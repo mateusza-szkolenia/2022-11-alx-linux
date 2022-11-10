@@ -5,7 +5,9 @@ nazwa_i_id () {
 }
 
 unikalne_shelle () {
+    echo "SHELLE:"
     cut -d: -f 7 | sort | uniq
+    echo "KONIEC"
 }
 
 cat /etc/passwd | nazwa_i_id
