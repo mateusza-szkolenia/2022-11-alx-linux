@@ -4,9 +4,11 @@ razem=0
 
 for plik in *.sh
 do
-    echo -n "$plik: "
-    cat "$plik" | grep -v '^$' | wc -l
+    ile=$(cat "$plik" | grep -v '^$' | wc -l)
 
+    (( razem = razem + ile ))
+
+    echo "$plik: $ile"
 done
 
 echo "Razem: $razem"
