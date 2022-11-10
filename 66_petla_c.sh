@@ -3,7 +3,7 @@
 # bardzo rzadko używana
 # wzorowana na języku C
 
-for ((i=0; i<30; i++))
+for ((i=0; i<30000000; i++))
 do
     echo "liczba $i"
 
