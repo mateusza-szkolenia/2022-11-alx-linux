@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function powitanie {
+powitanie () {
     echo "Witaj $1"
     date +%F
     echo "Żegnaj"
